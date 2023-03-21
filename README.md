@@ -55,6 +55,11 @@ Associate pipeline with daisy repo
 Enable automatic deploys  
 Deploy master  
 
+### You may need a Procfile
+client  
+`cat > Procfile  
+    `web: node bin/www`   
+
 You should see Express welcome screen  
 
 ## Render React App in Express
